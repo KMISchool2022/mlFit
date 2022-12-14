@@ -141,5 +141,5 @@ if not(m.fixed['theta'] | m.fixed['xi']):
     plt.subplots_adjust(left=0.2, right=0.9, top=0.9, bottom=0.2)
     handles, labels = ax.get_legend_handles_labels()
     plt.legend(handles, labels, loc='upper right', fontsize=14, frameon=False)
-    plt.figtext(0.3, 0.93, r'$\ln L = \ln L_{\rm max} - \frac{1}{2} F^{-1}_{\chi^2}(1-\alpha;n)$')
+    plt.figtext(0.3, 0.93, r'$\ln L = \ln L_{\rm max} - \frac{1}{2} F^{-1}_{\chi^2}(1-\alpha;N)$')
     plt.show()
